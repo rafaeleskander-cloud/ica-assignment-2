@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Roast Cafe</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="phone">
+
+        <header>
+            <div class="location-label">📍 DELIVER TO</div>
+            <div class="address">
+                Campus Dorms, Bldg B (ID: 20006011)
+            </div>
+        </header>
+
+        <main>
+            <input
+                type="search"
+                placeholder="Search restaurants, groceries in Daily Roast Cafe..."
+                aria-label="Search restaurants and groceries"
+            >
+
+            <section class="promo">
+                <h2>Speciality Single Origin 25% OFF</h2>
+                <p>Includes hot almond croissant</p>
+                <div class="coupon">🏷️ CODE: ICA-6022</div>
+            </section>
+
+            <section>
+                <h2>Explore Categories</h2>
+
+                <div class="categories">
+                    <div class="category">
+                        <div class="emoji">☕️</div>
+                        <span>Espresso</span>
+                    </div>
+
+                    <div class="category">
+                        <div class="emoji">🥐</div>
+                        <span>Pastries</span>
+                    </div>
+
+                    <div class="category">
+                        <div class="emoji">🥪</div>
+                        <span>Sandwiches</span>
+                    </div>
+
+                    <div class="category">
+                        <div class="emoji">🧋</div>
+                        <span>Cold Brew</span>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Featured Store</h2>
+
+                <div class="store">
+                    <div class="store-cover">🏬</div>
+
+                    <div class="store-info">
+                        <span class="rating">★ 4.9</span>
+
+                        <div class="store-name">
+                            The Parisian Bakery
+                        </div>
+
+                        <div class="store-description">
+                            French Pastries &amp; Breads
+                        </div>
+
+                        <div class="store-meta">
+                            🕒 20–30 min · EGP 45
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <nav aria-label="Bottom navigation">
+            <a href="#" class="active">
+                <span class="nav-emoji">🏠</span>
+                Home
+            </a>
+
+            <a href="#search" onclick="document.querySelector('input[type=search]').focus(); return false;">
+                <span class="nav-emoji">🔍</span>
+                Search
+            </a>
+
+            <a href="#orders">
+                <span class="nav-emoji">📋</span>
+                Orders
+            </a>
+
+            <a href="#profile">
+                <span class="nav-emoji">👤</span>
+                Profile
+            </a>
+        </nav>
+
+    </div>
+</body>
+</html>
